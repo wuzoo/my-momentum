@@ -1,0 +1,31 @@
+.hidden{
+    display:none;
+}
+.red{
+    color: red;
+}
+img{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+#quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    opacity: 0.8;
+}
+#quote span:first-child{
+    position: absolute;
+    bottom: -400px;
+    font-size: 15px;
+}
+#quote span:last-child{
+    position: absolute;
+    bottom: -450px;
+}
